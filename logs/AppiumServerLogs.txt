@@ -1,0 +1,979 @@
+2020-05-09 07:38:24:597 [Appium] Welcome to Appium v1.16.0
+2020-05-09 07:38:24:599 [Appium] Non-default server args:
+2020-05-09 07:38:24:599 [Appium]   logFile: C:\Users\Qualitrix\Desktop\mobile_automation\logs\AppiumServerLogs.txt
+2020-05-09 07:38:24:636 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-05-09 07:38:24:889 [HTTP] --> GET /wd/hub/status
+2020-05-09 07:38:24:890 [HTTP] {}
+2020-05-09 07:38:24:895 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-05-09 07:38:24:898 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.16.0"}}
+2020-05-09 07:38:24:906 [HTTP] <-- GET /wd/hub/status 200 13 ms - 68
+2020-05-09 07:38:24:907 [HTTP] 
+2020-05-09 07:38:25:923 [HTTP] --> POST /wd/hub/session
+2020-05-09 07:38:25:924 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","enforceAppInstall":"true","newCommandTimeout":"1800","platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","deviceName":"ca66c21f9805"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appium:appActivity":"com.amazon.mShop.home.HomeActivity","appium:appPackage":"com.amazon.mShop.android.shopping","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"ca66c21f9805","enforceAppInstall":"true","appium:newCommandTimeout":"1800","platformName":"android","appium:platformVersion":"8.1.0"}]}}
+2020-05-09 07:38:25:925 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","enforceAppInstall":"true","newCommandTimeout":"1800","platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","deviceName":"ca66c21f9805"},null,{"firstMatch":[{"appium:app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appium:appActivity":"com.amazon.mShop.home.HomeActivity","appium:appPackage":"com.amazon.mShop.android.shopping","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"ca66c21f9805","enforceAppInstall":"true","appium:newCommandTimeout":"1800","platformName":"android","appium:platformVersion":"8.1.0"}]}]
+2020-05-09 07:38:25:925 [BaseDriver] Event 'newSessionRequested' logged at 1589009905925 (13:08:25 GMT+0530 (India Standard Time))
+2020-05-09 07:38:25:929 [BaseDriver] The capabilities ["enforceAppInstall"] are not standard capabilities and should have an extension prefix
+2020-05-09 07:38:25:931 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-05-09 07:38:26:195 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-05-09 07:38:26:197 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-05-09 07:38:26:198 [BaseDriver] Creating session with W3C capabilities: {
+2020-05-09 07:38:26:198 [BaseDriver]   "alwaysMatch": {
+2020-05-09 07:38:26:198 [BaseDriver]     "appium:enforceAppInstall": "true",
+2020-05-09 07:38:26:198 [BaseDriver]     "platformName": "android",
+2020-05-09 07:38:26:198 [BaseDriver]     "appium:app": "C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk",
+2020-05-09 07:38:26:199 [BaseDriver]     "appium:appActivity": "com.amazon.mShop.home.HomeActivity",
+2020-05-09 07:38:26:199 [BaseDriver]     "appium:appPackage": "com.amazon.mShop.android.shopping",
+2020-05-09 07:38:26:199 [BaseDriver]     "appium:autoGrantPermissions": true,
+2020-05-09 07:38:26:199 [BaseDriver]     "appium:automationName": "uiautomator2",
+2020-05-09 07:38:26:199 [BaseDriver]     "appium:deviceName": "ca66c21f9805",
+2020-05-09 07:38:26:199 [BaseDriver]     "appium:newCommandTimeout": "1800",
+2020-05-09 07:38:26:200 [BaseDriver]     "appium:platformVersion": "8.1.0"
+2020-05-09 07:38:26:200 [BaseDriver]   },
+2020-05-09 07:38:26:200 [BaseDriver]   "firstMatch": [
+2020-05-09 07:38:26:200 [BaseDriver]     {}
+2020-05-09 07:38:26:201 [BaseDriver]   ]
+2020-05-09 07:38:26:201 [BaseDriver] }
+2020-05-09 07:38:26:202 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-05-09 07:38:26:205 [BaseDriver] Capability 'enforceAppInstall' changed from string to boolean. This may cause unexpected behavior
+2020-05-09 07:38:26:206 [BaseDriver] Capability 'newCommandTimeout' changed from string ('1800') to integer (1800). This may cause unexpected behavior
+2020-05-09 07:38:26:209 [BaseDriver] Session created with session id: 9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:38:26:212 [BaseDriver] Using local app 'C:\Users\Qualitrix\Desktop\mobile_automation/apkfile/Amazon_shopping.apk'
+2020-05-09 07:38:26:212 [UiAutomator2] Checking whether app is actually present
+2020-05-09 07:38:26:219 [ADB] Found 3 'build-tools' folders under 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk' (newest first):
+2020-05-09 07:38:26:219 [ADB]     C:/Users/Qualitrix/AppData/Local/Android/android-sdk/build-tools/30.0.0-rc1
+2020-05-09 07:38:26:220 [ADB]     C:/Users/Qualitrix/AppData/Local/Android/android-sdk/build-tools/29.0.3
+2020-05-09 07:38:26:220 [ADB]     C:/Users/Qualitrix/AppData/Local/Android/android-sdk/build-tools/29.0.2
+2020-05-09 07:38:26:221 [ADB] Using 'adb.exe' from 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe'
+2020-05-09 07:38:26:221 [AndroidDriver] Retrieving device list
+2020-05-09 07:38:26:221 [ADB] Trying to find a connected android device
+2020-05-09 07:38:26:222 [ADB] Getting connected devices...
+2020-05-09 07:38:26:254 [ADB] Connected devices: [{"udid":"ca66c21f9805","state":"device"}]
+2020-05-09 07:38:26:254 [AndroidDriver] Looking for a device with Android '8.1.0'
+2020-05-09 07:38:26:254 [ADB] Setting device id to ca66c21f9805
+2020-05-09 07:38:26:255 [ADB] Getting device platform version
+2020-05-09 07:38:26:255 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell getprop ro.build.version.release'
+2020-05-09 07:38:26:334 [ADB] Current device property 'ro.build.version.release': 8.1.0
+2020-05-09 07:38:26:335 [AndroidDriver] Using device: ca66c21f9805
+2020-05-09 07:38:26:337 [ADB] Using 'adb.exe' from 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe'
+2020-05-09 07:38:26:337 [ADB] Setting device id to ca66c21f9805
+2020-05-09 07:38:26:337 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell getprop ro.build.version.sdk'
+2020-05-09 07:38:26:413 [ADB] Current device property 'ro.build.version.sdk': 27
+2020-05-09 07:38:26:413 [ADB] Device API level: 27
+2020-05-09 07:38:26:414 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 wait-for-device'
+2020-05-09 07:38:26:441 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell echo ping'
+2020-05-09 07:38:26:512 [AndroidDriver] Pushing settings apk to device...
+2020-05-09 07:38:26:513 [ADB] Getting install status for io.appium.settings
+2020-05-09 07:38:26:514 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package io.appium.settings'
+2020-05-09 07:38:26:698 [ADB] 'io.appium.settings' is installed
+2020-05-09 07:38:26:699 [ADB] Getting package info for 'io.appium.settings'
+2020-05-09 07:38:26:699 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package io.appium.settings'
+2020-05-09 07:38:26:848 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.15.0' >= '2.15.0')
+2020-05-09 07:38:26:849 [ADB] There is no need to install/upgrade 'C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2020-05-09 07:38:26:849 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-05-09 07:38:26:850 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell 'pgrep --help; echo $?''
+2020-05-09 07:38:26:972 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell pgrep -f io\\.appium\\.settings'
+2020-05-09 07:38:27:136 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-05-09 07:38:27:137 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell appops set io.appium.settings android\:mock_location allow'
+2020-05-09 07:38:27:287 [Logcat] Starting logcat capture
+2020-05-09 07:38:27:780 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8201
+2020-05-09 07:38:27:781 [ADB] Forwarding system: 8201 to device: 6790
+2020-05-09 07:38:27:781 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 forward tcp\:8201 tcp\:6790'
+2020-05-09 07:38:27:816 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-05-09 07:38:27:817 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package io.appium.uiautomator2.server'
+2020-05-09 07:38:27:931 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-05-09 07:38:27:931 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-05-09 07:38:27:932 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package io.appium.uiautomator2.server'
+2020-05-09 07:38:28:067 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.2' >= '4.5.2')
+2020-05-09 07:38:28:068 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-05-09 07:38:28:068 [ADB] Checking app cert for C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk
+2020-05-09 07:38:28:080 [ADB] Using 'apksigner.bat' from 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\build-tools\30.0.0-rc1\apksigner.bat'
+2020-05-09 07:38:28:081 [ADB] Starting 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\build-tools\30.0.0-rc1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Qualitrix\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.2.apk"]'
+2020-05-09 07:38:28:603 [ADB] Got an error during apksigner execution: Command 'apksigner.bat verify --print-certs C:\\Users\\Qualitrix\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.2.apk' exited with code 1
+2020-05-09 07:38:28:604 [ADB] apksigner stderr: java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-05-09 07:38:28:604 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-05-09 07:38:28:604 [ADB] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-05-09 07:38:28:604 [ADB] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-05-09 07:38:28:605 [ADB] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-05-09 07:38:28:605 [ADB] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-05-09 07:38:28:605 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-05-09 07:38:28:605 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-05-09 07:38:28:606 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-05-09 07:38:28:606 [ADB] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-05-09 07:38:28:606 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-05-09 07:38:28:606 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-05-09 07:38:28:606 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-05-09 07:38:28:607 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-05-09 07:38:28:607 [ADB] Error: A JNI error has occurred, please check your installation and try again
+2020-05-09 07:38:28:607 [ADB] Exception in thread "main" 
+2020-05-09 07:38:28:609 [ADB] Cannot use apksigner tool for signature verification. Original error: Command 'apksigner.bat verify --print-certs C:\\Users\\Qualitrix\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.2.apk' exited with code 1
+2020-05-09 07:38:28:609 [ADB] Defaulting to verify.jar
+2020-05-09 07:38:28:916 [ADB] 'C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk' is already signed.
+2020-05-09 07:38:28:916 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-05-09 07:38:28:916 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-05-09 07:38:29:043 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-05-09 07:38:29:043 [ADB] Checking app cert for C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2020-05-09 07:38:29:045 [ADB] Starting 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\build-tools\30.0.0-rc1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Qualitrix\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-05-09 07:38:29:560 [ADB] Got an error during apksigner execution: Command 'apksigner.bat verify --print-certs C:\\Users\\Qualitrix\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-05-09 07:38:29:560 [ADB] apksigner stderr: java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-05-09 07:38:29:561 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-05-09 07:38:29:561 [ADB] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-05-09 07:38:29:561 [ADB] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-05-09 07:38:29:561 [ADB] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-05-09 07:38:29:561 [ADB] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-05-09 07:38:29:562 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-05-09 07:38:29:562 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-05-09 07:38:29:562 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-05-09 07:38:29:562 [ADB] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-05-09 07:38:29:562 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-05-09 07:38:29:563 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-05-09 07:38:29:563 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-05-09 07:38:29:563 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-05-09 07:38:29:563 [ADB] Error: A JNI error has occurred, please check your installation and try again
+2020-05-09 07:38:29:563 [ADB] Exception in thread "main" 
+2020-05-09 07:38:29:566 [ADB] Cannot use apksigner tool for signature verification. Original error: Command 'apksigner.bat verify --print-certs C:\\Users\\Qualitrix\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-05-09 07:38:29:566 [ADB] Defaulting to verify.jar
+2020-05-09 07:38:29:793 [ADB] 'C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-05-09 07:38:29:794 [UiAutomator2] Server packages are not going to be (re)installed
+2020-05-09 07:38:29:796 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-05-09 07:38:29:796 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell pm list instrumentation'
+2020-05-09 07:38:30:792 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-05-09 07:38:30:794 [ADB] Checking app cert for C:\Users\Qualitrix\Desktop\mobile_automation/apkfile/Amazon_shopping.apk
+2020-05-09 07:38:30:795 [ADB] Starting 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\build-tools\30.0.0-rc1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk"]'
+2020-05-09 07:38:31:238 [ADB] Got an error during apksigner execution: Command 'apksigner.bat verify --print-certs C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk' exited with code 1
+2020-05-09 07:38:31:238 [ADB] apksigner stderr: java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-05-09 07:38:31:238 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-05-09 07:38:31:238 [ADB] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-05-09 07:38:31:238 [ADB] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-05-09 07:38:31:238 [ADB] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-05-09 07:38:31:239 [ADB] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-05-09 07:38:31:239 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-05-09 07:38:31:239 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-05-09 07:38:31:239 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-05-09 07:38:31:239 [ADB] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-05-09 07:38:31:239 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-05-09 07:38:31:240 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-05-09 07:38:31:240 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-05-09 07:38:31:240 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-05-09 07:38:31:240 [ADB] Error: A JNI error has occurred, please check your installation and try again
+2020-05-09 07:38:31:240 [ADB] Exception in thread "main" 
+2020-05-09 07:38:31:241 [ADB] Cannot use apksigner tool for signature verification. Original error: Command 'apksigner.bat verify --print-certs C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk' exited with code 1
+2020-05-09 07:38:31:241 [ADB] Defaulting to verify.jar
+2020-05-09 07:38:33:278 [ADB] 'C:\Users\Qualitrix\Desktop\mobile_automation/apkfile/Amazon_shopping.apk' is already signed.
+2020-05-09 07:38:33:279 [ADB] Getting install status for com.amazon.mShop.android.shopping
+2020-05-09 07:38:33:279 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package com.amazon.mShop.android.shopping'
+2020-05-09 07:38:33:425 [ADB] 'com.amazon.mShop.android.shopping' is installed
+2020-05-09 07:38:33:425 [ADB] Getting package info for 'com.amazon.mShop.android.shopping'
+2020-05-09 07:38:33:426 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package com.amazon.mShop.android.shopping'
+2020-05-09 07:38:33:609 [ADB] The version name of the installed 'com.amazon.mShop.android.shopping' is greater or equal to the application version name ('18.14.0' >= '18.14.0')
+2020-05-09 07:38:33:767 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2020-05-09 07:38:33:851 [ADB] The count of applications in the cache: 9
+2020-05-09 07:38:33:851 [ADB] The application at 'C:\Users\Qualitrix\Desktop\mobile_automation/apkfile/Amazon_shopping.apk' is already cached to '/data/local/tmp/appium_cache/27f864127ff23153e760212e92b55cf1c3f9d502.apk'
+2020-05-09 07:38:33:853 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell pm install -r -g /data/local/tmp/appium_cache/27f864127ff23153e760212e92b55cf1c3f9d502.apk'
+2020-05-09 07:39:09:370 [ADB] The installation of 'Amazon_shopping.apk' took 35.517s
+2020-05-09 07:39:09:372 [ADB] Install command stdout: Success
+2020-05-09 07:39:09:373 [AndroidDriver] Performing fast reset on 'com.amazon.mShop.android.shopping'
+2020-05-09 07:39:09:375 [ADB] Getting install status for com.amazon.mShop.android.shopping
+2020-05-09 07:39:09:377 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package com.amazon.mShop.android.shopping'
+2020-05-09 07:39:09:539 [ADB] 'com.amazon.mShop.android.shopping' is installed
+2020-05-09 07:39:09:540 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell am force-stop com.amazon.mShop.android.shopping'
+2020-05-09 07:39:10:248 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell pm clear com.amazon.mShop.android.shopping'
+2020-05-09 07:39:11:669 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys package com.amazon.mShop.android.shopping'
+2020-05-09 07:39:11:826 [ADB] Retrieving requested permissions
+2020-05-09 07:39:11:829 [ADB] Retrieved 38 permission(s) from ["requested"] group(s)
+2020-05-09 07:39:11:830 [ADB] Retrieving granted permissions
+2020-05-09 07:39:11:832 [ADB] Retrieved 14 permission(s) from ["install","runtime"] group(s)
+2020-05-09 07:39:11:834 [ADB] Granting permissions ["android.permission.READ_CONTACTS","android.permission.GET_ACCOUNTS","android.permission.READ_PHONE_STATE","android.permission.ACCESS_FINE_LOCATION","android.permission.FOREGROUND_SERVICE","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.READ_EXTERNAL_STORAGE","android.permission.ACCESS_COARSE_LOCATION","android.permission.RECORD_AUDIO","android.permission.CAMERA"] to 'com.amazon.mShop.android.shopping'
+2020-05-09 07:39:11:835 [ADB] Got the following command chunks to execute: [["pm","grant","com.amazon.mShop.android.shopping","android.permission.READ_CONTACTS",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.GET_ACCOUNTS",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.READ_PHONE_STATE",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.ACCESS_FINE_LOCATION",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.FOREGROUND_SERVICE",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.READ_EXTERNAL_STORAGE",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.ACCESS_COARSE_LOCATION",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.RECORD_AUDIO",";","pm","grant","com.amazon.mShop.android.shopping","android.permission.CAMERA",";"]]
+2020-05-09 07:39:11:836 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell pm grant com.amazon.mShop.android.shopping android.permission.READ_CONTACTS \; pm grant com.amazon.mShop.android.shopping android.permission.GET_ACCOUNTS \; pm grant com.amazon.mShop.android.shopping android.permission.READ_PHONE_STATE \; pm grant com.amazon.mShop.android.shopping android.permission.ACCESS_FINE_LOCATION \; pm grant com.amazon.mShop.android.shopping android.permission.FOREGROUND_SERVICE \; pm grant com.amazon.mShop.android.shopping android.permission.WRITE_EXTERNAL_STORAGE \; pm grant com.amazon.mShop.android.shopping android.permission.READ_EXTERNAL_STORAGE \; pm grant com.amazon.mShop.android.shopping android.permission.ACCESS_COARSE_LOCATION \; pm grant com.amazon.mShop.android.shopping android.permission.RECORD_AUDIO \; pm grant com.amazon.mShop.android.shopping android.permission.CAMERA \;'
+2020-05-09 07:39:18:115 [AndroidDriver] Performed fast reset on the installed 'com.amazon.mShop.android.shopping' application (stop and clear)
+2020-05-09 07:39:18:117 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-05-09 07:39:18:153 [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+2020-05-09 07:39:18:153 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell am force-stop io.appium.uiautomator2.server.test'
+2020-05-09 07:39:18:277 [UiAutomator2] Starting UIAutomator2 server 4.5.2
+2020-05-09 07:39:18:277 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk' and test from 'C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-05-09 07:39:18:278 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-05-09 07:39:18:280 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ca66c21f9805","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-05-09 07:39:19:293 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-09 07:39:19:296 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2020-05-09 07:39:19:304 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-05-09 07:39:20:308 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-09 07:39:20:309 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2020-05-09 07:39:20:321 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-05-09 07:39:21:172 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-05-09 07:39:21:324 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-09 07:39:21:325 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2020-05-09 07:39:21:336 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-05-09 07:39:22:338 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-09 07:39:22:339 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2020-05-09 07:39:22:346 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-05-09 07:39:23:348 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-05-09 07:39:23:349 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2020-05-09 07:39:23:487 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+2020-05-09 07:39:23:489 [UiAutomator2] The initialization of the instrumentation process took 5211ms
+2020-05-09 07:39:23:490 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-05-09 07:39:23:492 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8201/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805"}],"alwa...
+2020-05-09 07:39:23:529 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","de...
+2020-05-09 07:39:23:530 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-05-09 07:39:23:559 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/appium/device/info] with no body
+2020-05-09 07:39:23:773 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"androidId":"521f435e36257f15","manufacturer":"Xiaomi","model":"Redmi Note 5","brand":"xiaomi","apiVersion":"27","platformVersion":"8.1.0","carrierName":"Idea - Be Safe","realDisplaySize":"1080x2160","displayDensity":440,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"\"B0Dn-a2F2eWE\"","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_WIFI","networkCapabilities":"NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-29,"networkSpecifier":null,"SSID":null}}],"locale":"en_GB","timeZone":"Asia\/Kolkata","bluetooth":{"state":"OFF"}}}
+2020-05-09 07:39:23:774 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell dumpsys window'
+2020-05-09 07:39:23:897 [AndroidDriver] Screen already unlocked, doing nothing
+2020-05-09 07:39:23:898 [UiAutomator2] Starting 'com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity and waiting for 'com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity'
+2020-05-09 07:39:23:900 [ADB] Running 'C:\Users\Qualitrix\AppData\Local\Android\android-sdk\platform-tools\adb.exe -P 5037 -s ca66c21f9805 shell am start -W -n com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-05-09 07:39:29:608 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/appium/device/pixel_ratio] with body: {}
+2020-05-09 07:39:29:623 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":2.75}
+2020-05-09 07:39:29:626 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-05-09 07:39:29:627 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/appium/device/system_bars] with body: {}
+2020-05-09 07:39:29:644 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"statusBar":76}}
+2020-05-09 07:39:29:646 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-05-09 07:39:29:646 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/window/current/size] with body: {}
+2020-05-09 07:39:29:663 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"height":2030,"width":1080}}
+2020-05-09 07:39:29:664 [Appium] New AndroidUiautomator2Driver session created successfully, session 9c226c39-c938-48e9-af46-15d94cd6aee4 added to master session list
+2020-05-09 07:39:29:665 [BaseDriver] Event 'newSessionStarted' logged at 1589009969665 (13:09:29 GMT+0530 (India Standard Time))
+2020-05-09 07:39:29:666 [W3C (9c226c39)] Cached the protocol value 'W3C' for the new session 9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:29:667 [W3C (9c226c39)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"d...
+2020-05-09 07:39:29:668 [HTTP] <-- POST /wd/hub/session 200 63744 ms - 1296
+2020-05-09 07:39:29:669 [HTTP] 
+2020-05-09 07:39:29:741 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:29:741 [HTTP] {}
+2020-05-09 07:39:29:742 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:29:743 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:29:743 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:29:743 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:29:760 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:29:761 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:29:762 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 21 ms - 1228
+2020-05-09 07:39:29:763 [HTTP] 
+2020-05-09 07:39:29:768 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:29:769 [HTTP] {}
+2020-05-09 07:39:29:769 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:29:770 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:29:770 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:29:771 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:29:787 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:29:788 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:29:788 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 20 ms - 1228
+2020-05-09 07:39:29:789 [HTTP] 
+2020-05-09 07:39:29:815 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:29:815 [HTTP] {}
+2020-05-09 07:39:29:816 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:29:816 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:29:817 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:29:817 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:29:832 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:29:833 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:29:834 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 19 ms - 1228
+2020-05-09 07:39:29:834 [HTTP] 
+2020-05-09 07:39:29:838 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:29:838 [HTTP] {}
+2020-05-09 07:39:29:838 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:29:843 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:29:843 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:29:844 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:29:859 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:29:860 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:29:861 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 22 ms - 1228
+2020-05-09 07:39:29:863 [HTTP] 
+2020-05-09 07:39:29:874 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:29:874 [HTTP] {}
+2020-05-09 07:39:29:875 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:29:876 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:29:876 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:29:876 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:29:903 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:29:903 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:29:904 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 30 ms - 1228
+2020-05-09 07:39:29:905 [HTTP] 
+2020-05-09 07:39:29:908 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:29:908 [HTTP] {}
+2020-05-09 07:39:29:909 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:29:909 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:29:910 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:29:910 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:29:936 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:29:937 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:29:938 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 30 ms - 1228
+2020-05-09 07:39:29:938 [HTTP] 
+2020-05-09 07:39:30:139 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:30:139 [HTTP] {}
+2020-05-09 07:39:30:139 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:30:140 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:30:140 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:30:140 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:30:168 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:30:169 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:30:170 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 31 ms - 1228
+2020-05-09 07:39:30:171 [HTTP] 
+2020-05-09 07:39:30:178 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:30:179 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:30:184 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:30:185 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:30:185 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:30:187 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:30:187 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:30:503 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+2020-05-09 07:39:30:504 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-05-09 07:39:30:517 [W3C (9c226c39)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-05-09 07:39:30:518 [W3C (9c226c39)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2020-05-09 07:39:30:521 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 404 341 ms - 423
+2020-05-09 07:39:30:523 [HTTP] 
+2020-05-09 07:39:31:058 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:31:059 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:31:061 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:31:063 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:31:064 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:31:065 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:31:066 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:31:201 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+2020-05-09 07:39:31:203 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-05-09 07:39:31:206 [W3C (9c226c39)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-05-09 07:39:31:207 [W3C (9c226c39)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2020-05-09 07:39:31:211 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 404 151 ms - 423
+2020-05-09 07:39:31:212 [HTTP] 
+2020-05-09 07:39:31:726 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:31:727 [HTTP] {}
+2020-05-09 07:39:31:728 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:31:729 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:31:730 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:31:731 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:31:760 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:31:762 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:31:764 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 37 ms - 1228
+2020-05-09 07:39:31:765 [HTTP] 
+2020-05-09 07:39:31:776 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:31:777 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:31:779 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:31:780 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:31:781 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:31:783 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:31:784 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:31:914 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+2020-05-09 07:39:31:915 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-05-09 07:39:31:917 [W3C (9c226c39)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-05-09 07:39:31:918 [W3C (9c226c39)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2020-05-09 07:39:31:920 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 404 143 ms - 423
+2020-05-09 07:39:31:922 [HTTP] 
+2020-05-09 07:39:32:431 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:32:431 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:32:432 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:32:433 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:32:433 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:32:434 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:32:435 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:32:749 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+2020-05-09 07:39:32:749 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-05-09 07:39:32:751 [W3C (9c226c39)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-05-09 07:39:32:751 [W3C (9c226c39)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2020-05-09 07:39:32:753 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 404 321 ms - 423
+2020-05-09 07:39:32:754 [HTTP] 
+2020-05-09 07:39:33:261 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:33:261 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:33:261 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:33:262 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:33:262 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:33:263 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:33:263 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:34:513 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"550d1a0c-6c4e-4606-8e2d-f122266952d4","element-6066-11e4-a52e-4f735466cecf":"550d1a0c-6c4e-4606-8e2d-f122266952d4"}}
+2020-05-09 07:39:34:515 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"550d1a0c-6c4e-4606-8e2d-f122266952d4","ELEMENT":"550d1a0c-6c4e-4606-8e2d-f122266952d4"}
+2020-05-09 07:39:34:517 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 1255 ms - 137
+2020-05-09 07:39:34:518 [HTTP] 
+2020-05-09 07:39:34:529 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/550d1a0c-6c4e-4606-8e2d-f122266952d4/displayed
+2020-05-09 07:39:34:529 [HTTP] {}
+2020-05-09 07:39:34:534 [W3C (9c226c39)] Calling AppiumDriver.elementDisplayed() with args: ["550d1a0c-6c4e-4606-8e2d-f122266952d4","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:34:536 [WD Proxy] Matched '/element/550d1a0c-6c4e-4606-8e2d-f122266952d4/attribute/displayed' to command name 'getAttribute'
+2020-05-09 07:39:34:537 [WD Proxy] Proxying [GET /element/550d1a0c-6c4e-4606-8e2d-f122266952d4/attribute/displayed] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/550d1a0c-6c4e-4606-8e2d-f122266952d4/attribute/displayed] with body: {}
+2020-05-09 07:39:34:585 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:34:586 [W3C (9c226c39)] Responding to client with driver.elementDisplayed() result: true
+2020-05-09 07:39:34:587 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/550d1a0c-6c4e-4606-8e2d-f122266952d4/displayed 200 58 ms - 14
+2020-05-09 07:39:34:588 [HTTP] 
+2020-05-09 07:39:34:598 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:34:600 [HTTP] {}
+2020-05-09 07:39:34:601 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:34:603 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:34:603 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:34:604 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:34:620 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:34:620 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:34:621 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 23 ms - 1228
+2020-05-09 07:39:34:622 [HTTP] 
+2020-05-09 07:39:34:627 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:34:628 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:34:629 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:34:629 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:34:630 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:34:631 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:34:631 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:34:922 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"2a2d1777-a085-4f69-8242-505c93bb7871","element-6066-11e4-a52e-4f735466cecf":"2a2d1777-a085-4f69-8242-505c93bb7871"}}
+2020-05-09 07:39:34:923 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2a2d1777-a085-4f69-8242-505c93bb7871","ELEMENT":"2a2d1777-a085-4f69-8242-505c93bb7871"}
+2020-05-09 07:39:34:925 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 297 ms - 137
+2020-05-09 07:39:34:926 [HTTP] 
+2020-05-09 07:39:34:931 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/2a2d1777-a085-4f69-8242-505c93bb7871/displayed
+2020-05-09 07:39:34:932 [HTTP] {}
+2020-05-09 07:39:34:933 [W3C (9c226c39)] Calling AppiumDriver.elementDisplayed() with args: ["2a2d1777-a085-4f69-8242-505c93bb7871","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:34:935 [WD Proxy] Matched '/element/2a2d1777-a085-4f69-8242-505c93bb7871/attribute/displayed' to command name 'getAttribute'
+2020-05-09 07:39:34:936 [WD Proxy] Proxying [GET /element/2a2d1777-a085-4f69-8242-505c93bb7871/attribute/displayed] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/2a2d1777-a085-4f69-8242-505c93bb7871/attribute/displayed] with body: {}
+2020-05-09 07:39:35:596 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:35:597 [W3C (9c226c39)] Responding to client with driver.elementDisplayed() result: true
+2020-05-09 07:39:35:600 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/2a2d1777-a085-4f69-8242-505c93bb7871/displayed 200 668 ms - 14
+2020-05-09 07:39:35:601 [HTTP] 
+2020-05-09 07:39:35:605 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:35:606 [HTTP] {}
+2020-05-09 07:39:35:607 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:35:608 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:35:609 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:35:610 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:35:625 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:35:627 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:35:629 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 23 ms - 1228
+2020-05-09 07:39:35:630 [HTTP] 
+2020-05-09 07:39:35:640 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:35:642 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:35:644 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:35:646 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:35:647 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:35:650 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:35:651 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:35:898 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"7765fd6f-d032-4fe0-a2ad-047ea5fe9a44","element-6066-11e4-a52e-4f735466cecf":"7765fd6f-d032-4fe0-a2ad-047ea5fe9a44"}}
+2020-05-09 07:39:35:899 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7765fd6f-d032-4fe0-a2ad-047ea5fe9a44","ELEMENT":"7765fd6f-d032-4fe0-a2ad-047ea5fe9a44"}
+2020-05-09 07:39:35:901 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 261 ms - 137
+2020-05-09 07:39:35:902 [HTTP] 
+2020-05-09 07:39:35:909 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/7765fd6f-d032-4fe0-a2ad-047ea5fe9a44/enabled
+2020-05-09 07:39:35:910 [HTTP] {}
+2020-05-09 07:39:35:913 [W3C (9c226c39)] Calling AppiumDriver.elementEnabled() with args: ["7765fd6f-d032-4fe0-a2ad-047ea5fe9a44","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:35:916 [WD Proxy] Matched '/element/7765fd6f-d032-4fe0-a2ad-047ea5fe9a44/attribute/enabled' to command name 'getAttribute'
+2020-05-09 07:39:35:917 [WD Proxy] Proxying [GET /element/7765fd6f-d032-4fe0-a2ad-047ea5fe9a44/attribute/enabled] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/7765fd6f-d032-4fe0-a2ad-047ea5fe9a44/attribute/enabled] with body: {}
+2020-05-09 07:39:35:939 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:35:941 [W3C (9c226c39)] Responding to client with driver.elementEnabled() result: true
+2020-05-09 07:39:35:943 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/7765fd6f-d032-4fe0-a2ad-047ea5fe9a44/enabled 200 33 ms - 14
+2020-05-09 07:39:35:944 [HTTP] 
+2020-05-09 07:39:35:950 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:35:950 [HTTP] {}
+2020-05-09 07:39:35:951 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:35:953 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:35:953 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:35:954 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:35:971 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:35:972 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:35:975 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 24 ms - 1228
+2020-05-09 07:39:35:976 [HTTP] 
+2020-05-09 07:39:35:986 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:35:987 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']"}
+2020-05-09 07:39:35:989 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:35:990 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:35:992 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:35:995 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:35:996 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']","context":"","multiple":false}
+2020-05-09 07:39:36:237 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"dd76c2a9-a8ca-45db-9589-ae98cd5f817b","element-6066-11e4-a52e-4f735466cecf":"dd76c2a9-a8ca-45db-9589-ae98cd5f817b"}}
+2020-05-09 07:39:36:239 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"dd76c2a9-a8ca-45db-9589-ae98cd5f817b","ELEMENT":"dd76c2a9-a8ca-45db-9589-ae98cd5f817b"}
+2020-05-09 07:39:36:241 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 254 ms - 137
+2020-05-09 07:39:36:242 [HTTP] 
+2020-05-09 07:39:36:250 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/dd76c2a9-a8ca-45db-9589-ae98cd5f817b/click
+2020-05-09 07:39:36:251 [HTTP] {"id":"dd76c2a9-a8ca-45db-9589-ae98cd5f817b"}
+2020-05-09 07:39:36:252 [W3C (9c226c39)] Calling AppiumDriver.click() with args: ["dd76c2a9-a8ca-45db-9589-ae98cd5f817b","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:255 [WD Proxy] Matched '/element/dd76c2a9-a8ca-45db-9589-ae98cd5f817b/click' to command name 'click'
+2020-05-09 07:39:36:256 [WD Proxy] Proxying [POST /element/dd76c2a9-a8ca-45db-9589-ae98cd5f817b/click] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/dd76c2a9-a8ca-45db-9589-ae98cd5f817b/click] with body: {"element":"dd76c2a9-a8ca-45db-9589-ae98cd5f817b"}
+2020-05-09 07:39:36:288 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":null}
+2020-05-09 07:39:36:289 [W3C (9c226c39)] Responding to client with driver.click() result: null
+2020-05-09 07:39:36:290 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/dd76c2a9-a8ca-45db-9589-ae98cd5f817b/click 200 40 ms - 14
+2020-05-09 07:39:36:290 [HTTP] 
+2020-05-09 07:39:36:296 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:296 [HTTP] {}
+2020-05-09 07:39:36:298 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:299 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:300 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:300 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:322 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:323 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:325 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 29 ms - 1228
+2020-05-09 07:39:36:326 [HTTP] 
+2020-05-09 07:39:36:330 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:331 [HTTP] {}
+2020-05-09 07:39:36:332 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:334 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:335 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:336 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:353 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:354 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:355 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 24 ms - 1228
+2020-05-09 07:39:36:355 [HTTP] 
+2020-05-09 07:39:36:358 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:358 [HTTP] {}
+2020-05-09 07:39:36:359 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:360 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:363 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:364 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:376 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:376 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:377 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 19 ms - 1228
+2020-05-09 07:39:36:378 [HTTP] 
+2020-05-09 07:39:36:382 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:382 [HTTP] {}
+2020-05-09 07:39:36:383 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:384 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:384 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:385 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:395 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:396 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:397 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 15 ms - 1228
+2020-05-09 07:39:36:398 [HTTP] 
+2020-05-09 07:39:36:403 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:403 [HTTP] {}
+2020-05-09 07:39:36:404 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:405 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:405 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:405 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:420 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:420 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:422 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 18 ms - 1228
+2020-05-09 07:39:36:422 [HTTP] 
+2020-05-09 07:39:36:424 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:424 [HTTP] {}
+2020-05-09 07:39:36:424 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:425 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:425 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:425 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:436 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:436 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:437 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 13 ms - 1228
+2020-05-09 07:39:36:441 [HTTP] 
+2020-05-09 07:39:36:442 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:442 [HTTP] {}
+2020-05-09 07:39:36:443 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:443 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:444 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:444 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:457 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:458 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:459 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 17 ms - 1228
+2020-05-09 07:39:36:459 [HTTP] 
+2020-05-09 07:39:36:462 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:36:463 [HTTP] {}
+2020-05-09 07:39:36:463 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:36:464 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:36:464 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:36:464 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:36:475 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:36:476 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:36:477 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 14 ms - 1228
+2020-05-09 07:39:36:477 [HTTP] 
+2020-05-09 07:39:37:109 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:37:109 [HTTP] {}
+2020-05-09 07:39:37:109 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:37:110 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:37:111 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:37:111 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:37:120 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:37:121 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:37:122 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 12 ms - 1228
+2020-05-09 07:39:37:122 [HTTP] 
+2020-05-09 07:39:37:126 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:37:126 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']"}
+2020-05-09 07:39:37:126 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:37:127 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:37:127 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:37:127 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:37:127 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","context":"","multiple":false}
+2020-05-09 07:39:38:800 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"e35f1de2-8362-44ce-b304-51694ae8508b","element-6066-11e4-a52e-4f735466cecf":"e35f1de2-8362-44ce-b304-51694ae8508b"}}
+2020-05-09 07:39:38:801 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"e35f1de2-8362-44ce-b304-51694ae8508b","ELEMENT":"e35f1de2-8362-44ce-b304-51694ae8508b"}
+2020-05-09 07:39:38:803 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 1676 ms - 137
+2020-05-09 07:39:38:804 [HTTP] 
+2020-05-09 07:39:38:809 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/e35f1de2-8362-44ce-b304-51694ae8508b/displayed
+2020-05-09 07:39:38:810 [HTTP] {}
+2020-05-09 07:39:38:812 [W3C (9c226c39)] Calling AppiumDriver.elementDisplayed() with args: ["e35f1de2-8362-44ce-b304-51694ae8508b","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:38:815 [WD Proxy] Matched '/element/e35f1de2-8362-44ce-b304-51694ae8508b/attribute/displayed' to command name 'getAttribute'
+2020-05-09 07:39:38:816 [WD Proxy] Proxying [GET /element/e35f1de2-8362-44ce-b304-51694ae8508b/attribute/displayed] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/e35f1de2-8362-44ce-b304-51694ae8508b/attribute/displayed] with body: {}
+2020-05-09 07:39:41:103 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:41:104 [W3C (9c226c39)] Responding to client with driver.elementDisplayed() result: true
+2020-05-09 07:39:41:106 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/e35f1de2-8362-44ce-b304-51694ae8508b/displayed 200 2296 ms - 14
+2020-05-09 07:39:41:107 [HTTP] 
+2020-05-09 07:39:41:112 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:41:113 [HTTP] {}
+2020-05-09 07:39:41:114 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:41:116 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:41:117 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:41:117 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:41:132 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:41:133 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:41:134 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 22 ms - 1228
+2020-05-09 07:39:41:135 [HTTP] 
+2020-05-09 07:39:41:140 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:41:140 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']"}
+2020-05-09 07:39:41:141 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:41:142 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:41:142 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:41:143 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:41:143 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","context":"","multiple":false}
+2020-05-09 07:39:43:160 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"c0a579aa-1e5e-4e1a-833b-c5314dd54dc1","element-6066-11e4-a52e-4f735466cecf":"c0a579aa-1e5e-4e1a-833b-c5314dd54dc1"}}
+2020-05-09 07:39:43:161 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"c0a579aa-1e5e-4e1a-833b-c5314dd54dc1","ELEMENT":"c0a579aa-1e5e-4e1a-833b-c5314dd54dc1"}
+2020-05-09 07:39:43:163 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 2022 ms - 137
+2020-05-09 07:39:43:165 [HTTP] 
+2020-05-09 07:39:43:170 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/c0a579aa-1e5e-4e1a-833b-c5314dd54dc1/displayed
+2020-05-09 07:39:43:171 [HTTP] {}
+2020-05-09 07:39:43:174 [W3C (9c226c39)] Calling AppiumDriver.elementDisplayed() with args: ["c0a579aa-1e5e-4e1a-833b-c5314dd54dc1","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:43:183 [WD Proxy] Matched '/element/c0a579aa-1e5e-4e1a-833b-c5314dd54dc1/attribute/displayed' to command name 'getAttribute'
+2020-05-09 07:39:43:184 [WD Proxy] Proxying [GET /element/c0a579aa-1e5e-4e1a-833b-c5314dd54dc1/attribute/displayed] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/c0a579aa-1e5e-4e1a-833b-c5314dd54dc1/attribute/displayed] with body: {}
+2020-05-09 07:39:43:211 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:43:212 [W3C (9c226c39)] Responding to client with driver.elementDisplayed() result: true
+2020-05-09 07:39:43:213 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/c0a579aa-1e5e-4e1a-833b-c5314dd54dc1/displayed 200 43 ms - 14
+2020-05-09 07:39:43:214 [HTTP] 
+2020-05-09 07:39:43:216 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:43:216 [HTTP] {}
+2020-05-09 07:39:43:217 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:43:218 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:43:218 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:43:219 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:43:231 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:43:232 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:43:233 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 16 ms - 1228
+2020-05-09 07:39:43:233 [HTTP] 
+2020-05-09 07:39:43:238 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:43:238 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']"}
+2020-05-09 07:39:43:239 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:43:240 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:43:240 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:43:242 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:43:242 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","context":"","multiple":false}
+2020-05-09 07:39:44:395 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"86fbc741-a941-401b-96ae-fef5b32c45a9","element-6066-11e4-a52e-4f735466cecf":"86fbc741-a941-401b-96ae-fef5b32c45a9"}}
+2020-05-09 07:39:44:397 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"86fbc741-a941-401b-96ae-fef5b32c45a9","ELEMENT":"86fbc741-a941-401b-96ae-fef5b32c45a9"}
+2020-05-09 07:39:44:399 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 1160 ms - 137
+2020-05-09 07:39:44:401 [HTTP] 
+2020-05-09 07:39:44:405 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/86fbc741-a941-401b-96ae-fef5b32c45a9/enabled
+2020-05-09 07:39:44:406 [HTTP] {}
+2020-05-09 07:39:44:407 [W3C (9c226c39)] Calling AppiumDriver.elementEnabled() with args: ["86fbc741-a941-401b-96ae-fef5b32c45a9","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:44:410 [WD Proxy] Matched '/element/86fbc741-a941-401b-96ae-fef5b32c45a9/attribute/enabled' to command name 'getAttribute'
+2020-05-09 07:39:44:411 [WD Proxy] Proxying [GET /element/86fbc741-a941-401b-96ae-fef5b32c45a9/attribute/enabled] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/86fbc741-a941-401b-96ae-fef5b32c45a9/attribute/enabled] with body: {}
+2020-05-09 07:39:44:701 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:44:703 [W3C (9c226c39)] Responding to client with driver.elementEnabled() result: true
+2020-05-09 07:39:44:705 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/86fbc741-a941-401b-96ae-fef5b32c45a9/enabled 200 299 ms - 14
+2020-05-09 07:39:44:706 [HTTP] 
+2020-05-09 07:39:44:713 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:44:714 [HTTP] {}
+2020-05-09 07:39:44:715 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:44:716 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:44:717 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:44:719 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:44:747 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:44:748 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:44:749 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 37 ms - 1228
+2020-05-09 07:39:44:750 [HTTP] 
+2020-05-09 07:39:44:755 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:44:756 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']"}
+2020-05-09 07:39:44:757 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:44:757 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:44:757 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:44:758 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:44:759 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","context":"","multiple":false}
+2020-05-09 07:39:45:868 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"6268ad48-199c-4cf3-9928-6ae29d6bb5ba","element-6066-11e4-a52e-4f735466cecf":"6268ad48-199c-4cf3-9928-6ae29d6bb5ba"}}
+2020-05-09 07:39:45:869 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6268ad48-199c-4cf3-9928-6ae29d6bb5ba","ELEMENT":"6268ad48-199c-4cf3-9928-6ae29d6bb5ba"}
+2020-05-09 07:39:45:872 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 1116 ms - 137
+2020-05-09 07:39:45:873 [HTTP] 
+2020-05-09 07:39:45:881 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/6268ad48-199c-4cf3-9928-6ae29d6bb5ba/click
+2020-05-09 07:39:45:882 [HTTP] {"id":"6268ad48-199c-4cf3-9928-6ae29d6bb5ba"}
+2020-05-09 07:39:45:884 [W3C (9c226c39)] Calling AppiumDriver.click() with args: ["6268ad48-199c-4cf3-9928-6ae29d6bb5ba","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:45:886 [WD Proxy] Matched '/element/6268ad48-199c-4cf3-9928-6ae29d6bb5ba/click' to command name 'click'
+2020-05-09 07:39:45:887 [WD Proxy] Proxying [POST /element/6268ad48-199c-4cf3-9928-6ae29d6bb5ba/click] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/6268ad48-199c-4cf3-9928-6ae29d6bb5ba/click] with body: {"element":"6268ad48-199c-4cf3-9928-6ae29d6bb5ba"}
+2020-05-09 07:39:46:032 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":null}
+2020-05-09 07:39:46:033 [W3C (9c226c39)] Responding to client with driver.click() result: null
+2020-05-09 07:39:46:035 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/6268ad48-199c-4cf3-9928-6ae29d6bb5ba/click 200 154 ms - 14
+2020-05-09 07:39:46:036 [HTTP] 
+2020-05-09 07:39:46:042 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:46:043 [HTTP] {}
+2020-05-09 07:39:46:043 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:46:044 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:46:046 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:46:047 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:46:061 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:46:063 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:46:066 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 23 ms - 1228
+2020-05-09 07:39:46:067 [HTTP] 
+2020-05-09 07:39:46:076 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:46:077 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']"}
+2020-05-09 07:39:46:078 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:46:079 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:46:079 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:46:080 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:46:080 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","context":"","multiple":false}
+2020-05-09 07:39:46:631 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+2020-05-09 07:39:46:633 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-05-09 07:39:46:638 [W3C (9c226c39)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-05-09 07:39:46:638 [W3C (9c226c39)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2020-05-09 07:39:46:641 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 404 564 ms - 423
+2020-05-09 07:39:46:643 [HTTP] 
+2020-05-09 07:39:47:151 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:47:151 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']"}
+2020-05-09 07:39:47:152 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:47:152 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:47:152 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:47:153 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:47:153 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']","context":"","multiple":false}
+2020-05-09 07:39:48:395 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"10e17517-778d-4c84-a3a5-fae423136f74","element-6066-11e4-a52e-4f735466cecf":"10e17517-778d-4c84-a3a5-fae423136f74"}}
+2020-05-09 07:39:48:396 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10e17517-778d-4c84-a3a5-fae423136f74","ELEMENT":"10e17517-778d-4c84-a3a5-fae423136f74"}
+2020-05-09 07:39:48:397 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 1246 ms - 137
+2020-05-09 07:39:48:397 [HTTP] 
+2020-05-09 07:39:48:404 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/10e17517-778d-4c84-a3a5-fae423136f74/value
+2020-05-09 07:39:48:405 [HTTP] {"id":"10e17517-778d-4c84-a3a5-fae423136f74","text":"65-inch TV","value":["6","5","-","i","n","c","h"," ","T","V"]}
+2020-05-09 07:39:48:405 [W3C (9c226c39)] Calling AppiumDriver.setValue() with args: [["6","5","-","i","n","c","h"," ","T","V"],"10e17517-778d-4c84-a3a5-fae423136f74","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:48:406 [WD Proxy] Matched '/element/10e17517-778d-4c84-a3a5-fae423136f74/value' to command name 'setValue'
+2020-05-09 07:39:48:407 [Protocol Converter] Added 'value' property ["6","5","-","i","n","c","h"," ","T","V"] to 'setValue' request body
+2020-05-09 07:39:48:407 [WD Proxy] Proxying [POST /element/10e17517-778d-4c84-a3a5-fae423136f74/value] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/10e17517-778d-4c84-a3a5-fae423136f74/value] with body: {"elementId":"10e17517-778d-4c84-a3a5-fae423136f74","text":"65-inch TV","replace":false,"value":["6","5","-","i","n","c","h"," ","T","V"]}
+2020-05-09 07:39:49:106 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":null}
+2020-05-09 07:39:49:107 [W3C (9c226c39)] Responding to client with driver.setValue() result: null
+2020-05-09 07:39:49:109 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/10e17517-778d-4c84-a3a5-fae423136f74/value 200 704 ms - 14
+2020-05-09 07:39:49:110 [HTTP] 
+2020-05-09 07:39:49:114 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:49:115 [HTTP] {}
+2020-05-09 07:39:49:116 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:49:118 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:49:119 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:49:120 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:49:138 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:49:139 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:49:141 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 26 ms - 1228
+2020-05-09 07:39:49:143 [HTTP] 
+2020-05-09 07:39:49:152 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:49:153 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']"}
+2020-05-09 07:39:49:155 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:49:157 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:49:158 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:49:161 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:49:162 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","context":"","multiple":false}
+2020-05-09 07:39:50:172 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+2020-05-09 07:39:50:173 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-05-09 07:39:50:175 [W3C (9c226c39)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-05-09 07:39:50:176 [W3C (9c226c39)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2020-05-09 07:39:50:179 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 404 1026 ms - 423
+2020-05-09 07:39:50:180 [HTTP] 
+2020-05-09 07:39:50:685 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:50:685 [HTTP] {}
+2020-05-09 07:39:50:686 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:50:686 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:50:687 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:50:687 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:50:715 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:50:716 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:50:719 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 33 ms - 1228
+2020-05-09 07:39:50:720 [HTTP] 
+2020-05-09 07:39:50:726 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:50:726 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']"}
+2020-05-09 07:39:50:728 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:50:729 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:50:730 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:50:732 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:50:732 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","context":"","multiple":false}
+2020-05-09 07:39:51:147 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"8b3a1871-4e3a-4b90-b664-34d0b409716c","element-6066-11e4-a52e-4f735466cecf":"8b3a1871-4e3a-4b90-b664-34d0b409716c"}}
+2020-05-09 07:39:51:148 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8b3a1871-4e3a-4b90-b664-34d0b409716c","ELEMENT":"8b3a1871-4e3a-4b90-b664-34d0b409716c"}
+2020-05-09 07:39:51:151 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 424 ms - 137
+2020-05-09 07:39:51:152 [HTTP] 
+2020-05-09 07:39:51:158 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/8b3a1871-4e3a-4b90-b664-34d0b409716c/displayed
+2020-05-09 07:39:51:159 [HTTP] {}
+2020-05-09 07:39:51:160 [W3C (9c226c39)] Calling AppiumDriver.elementDisplayed() with args: ["8b3a1871-4e3a-4b90-b664-34d0b409716c","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:163 [WD Proxy] Matched '/element/8b3a1871-4e3a-4b90-b664-34d0b409716c/attribute/displayed' to command name 'getAttribute'
+2020-05-09 07:39:51:164 [WD Proxy] Proxying [GET /element/8b3a1871-4e3a-4b90-b664-34d0b409716c/attribute/displayed] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/8b3a1871-4e3a-4b90-b664-34d0b409716c/attribute/displayed] with body: {}
+2020-05-09 07:39:51:189 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:51:189 [W3C (9c226c39)] Responding to client with driver.elementDisplayed() result: true
+2020-05-09 07:39:51:190 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/8b3a1871-4e3a-4b90-b664-34d0b409716c/displayed 200 32 ms - 14
+2020-05-09 07:39:51:191 [HTTP] 
+2020-05-09 07:39:51:194 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:51:194 [HTTP] {}
+2020-05-09 07:39:51:195 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:195 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:51:196 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:51:196 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:51:219 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:51:220 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:51:221 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 27 ms - 1228
+2020-05-09 07:39:51:222 [HTTP] 
+2020-05-09 07:39:51:227 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:51:227 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']"}
+2020-05-09 07:39:51:228 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:229 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:51:229 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:51:230 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:51:231 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","context":"","multiple":false}
+2020-05-09 07:39:51:464 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"ba9f077b-17ff-40cb-a519-eefb9fb95c57","element-6066-11e4-a52e-4f735466cecf":"ba9f077b-17ff-40cb-a519-eefb9fb95c57"}}
+2020-05-09 07:39:51:468 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"ba9f077b-17ff-40cb-a519-eefb9fb95c57","ELEMENT":"ba9f077b-17ff-40cb-a519-eefb9fb95c57"}
+2020-05-09 07:39:51:471 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 243 ms - 137
+2020-05-09 07:39:51:472 [HTTP] 
+2020-05-09 07:39:51:476 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/ba9f077b-17ff-40cb-a519-eefb9fb95c57/displayed
+2020-05-09 07:39:51:477 [HTTP] {}
+2020-05-09 07:39:51:479 [W3C (9c226c39)] Calling AppiumDriver.elementDisplayed() with args: ["ba9f077b-17ff-40cb-a519-eefb9fb95c57","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:481 [WD Proxy] Matched '/element/ba9f077b-17ff-40cb-a519-eefb9fb95c57/attribute/displayed' to command name 'getAttribute'
+2020-05-09 07:39:51:482 [WD Proxy] Proxying [GET /element/ba9f077b-17ff-40cb-a519-eefb9fb95c57/attribute/displayed] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/ba9f077b-17ff-40cb-a519-eefb9fb95c57/attribute/displayed] with body: {}
+2020-05-09 07:39:51:508 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:51:510 [W3C (9c226c39)] Responding to client with driver.elementDisplayed() result: true
+2020-05-09 07:39:51:512 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/ba9f077b-17ff-40cb-a519-eefb9fb95c57/displayed 200 35 ms - 14
+2020-05-09 07:39:51:513 [HTTP] 
+2020-05-09 07:39:51:524 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:51:525 [HTTP] {}
+2020-05-09 07:39:51:526 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:527 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:51:529 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:51:530 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:51:554 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:51:555 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:51:555 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 32 ms - 1228
+2020-05-09 07:39:51:556 [HTTP] 
+2020-05-09 07:39:51:560 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:51:561 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']"}
+2020-05-09 07:39:51:562 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:562 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:51:562 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:51:563 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:51:564 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","context":"","multiple":false}
+2020-05-09 07:39:51:725 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"c7f90e77-519a-4b51-a5eb-2cb7cf200d59","element-6066-11e4-a52e-4f735466cecf":"c7f90e77-519a-4b51-a5eb-2cb7cf200d59"}}
+2020-05-09 07:39:51:727 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"c7f90e77-519a-4b51-a5eb-2cb7cf200d59","ELEMENT":"c7f90e77-519a-4b51-a5eb-2cb7cf200d59"}
+2020-05-09 07:39:51:728 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 167 ms - 137
+2020-05-09 07:39:51:729 [HTTP] 
+2020-05-09 07:39:51:733 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/c7f90e77-519a-4b51-a5eb-2cb7cf200d59/enabled
+2020-05-09 07:39:51:734 [HTTP] {}
+2020-05-09 07:39:51:735 [W3C (9c226c39)] Calling AppiumDriver.elementEnabled() with args: ["c7f90e77-519a-4b51-a5eb-2cb7cf200d59","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:738 [WD Proxy] Matched '/element/c7f90e77-519a-4b51-a5eb-2cb7cf200d59/attribute/enabled' to command name 'getAttribute'
+2020-05-09 07:39:51:738 [WD Proxy] Proxying [GET /element/c7f90e77-519a-4b51-a5eb-2cb7cf200d59/attribute/enabled] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/c7f90e77-519a-4b51-a5eb-2cb7cf200d59/attribute/enabled] with body: {}
+2020-05-09 07:39:51:759 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"true"}
+2020-05-09 07:39:51:761 [W3C (9c226c39)] Responding to client with driver.elementEnabled() result: true
+2020-05-09 07:39:51:763 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/c7f90e77-519a-4b51-a5eb-2cb7cf200d59/enabled 200 29 ms - 14
+2020-05-09 07:39:51:763 [HTTP] 
+2020-05-09 07:39:51:772 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:51:773 [HTTP] {}
+2020-05-09 07:39:51:774 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:775 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:51:775 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:51:776 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:51:790 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:51:791 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:51:793 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 22 ms - 1228
+2020-05-09 07:39:51:796 [HTTP] 
+2020-05-09 07:39:51:800 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:39:51:800 [HTTP] {"using":"xpath","value":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']"}
+2020-05-09 07:39:51:802 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:51:803 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:39:51:805 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:39:51:807 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:39:51:807 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@resource-id='com.amazon.mShop.android.shopping:id/iss_search_dropdown_item_text']","context":"","multiple":false}
+2020-05-09 07:39:52:043 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"466f673b-02be-452d-91ab-63d18cb9215d","element-6066-11e4-a52e-4f735466cecf":"466f673b-02be-452d-91ab-63d18cb9215d"}}
+2020-05-09 07:39:52:044 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"466f673b-02be-452d-91ab-63d18cb9215d","ELEMENT":"466f673b-02be-452d-91ab-63d18cb9215d"}
+2020-05-09 07:39:52:046 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 246 ms - 137
+2020-05-09 07:39:52:047 [HTTP] 
+2020-05-09 07:39:52:053 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/466f673b-02be-452d-91ab-63d18cb9215d/click
+2020-05-09 07:39:52:054 [HTTP] {"id":"466f673b-02be-452d-91ab-63d18cb9215d"}
+2020-05-09 07:39:52:056 [W3C (9c226c39)] Calling AppiumDriver.click() with args: ["466f673b-02be-452d-91ab-63d18cb9215d","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:52:059 [WD Proxy] Matched '/element/466f673b-02be-452d-91ab-63d18cb9215d/click' to command name 'click'
+2020-05-09 07:39:52:059 [WD Proxy] Proxying [POST /element/466f673b-02be-452d-91ab-63d18cb9215d/click] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/466f673b-02be-452d-91ab-63d18cb9215d/click] with body: {"element":"466f673b-02be-452d-91ab-63d18cb9215d"}
+2020-05-09 07:39:53:350 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":null}
+2020-05-09 07:39:53:352 [W3C (9c226c39)] Responding to client with driver.click() result: null
+2020-05-09 07:39:53:354 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/466f673b-02be-452d-91ab-63d18cb9215d/click 200 1300 ms - 14
+2020-05-09 07:39:53:355 [HTTP] 
+2020-05-09 07:39:58:746 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:58:746 [HTTP] {}
+2020-05-09 07:39:58:747 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:58:748 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:58:749 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:58:749 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:58:772 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:58:774 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:58:775 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 29 ms - 1228
+2020-05-09 07:39:58:776 [HTTP] 
+2020-05-09 07:39:58:818 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:58:818 [HTTP] {}
+2020-05-09 07:39:58:818 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:58:818 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:58:818 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:58:819 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:58:839 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:58:840 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:58:841 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 23 ms - 1228
+2020-05-09 07:39:58:841 [HTTP] 
+2020-05-09 07:39:58:867 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:58:867 [HTTP] {}
+2020-05-09 07:39:58:867 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:58:868 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:58:868 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:58:868 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:58:889 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:58:889 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:58:890 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 23 ms - 1228
+2020-05-09 07:39:58:890 [HTTP] 
+2020-05-09 07:39:58:915 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:39:58:915 [HTTP] {}
+2020-05-09 07:39:58:915 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:39:58:916 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:39:58:916 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:39:58:917 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:39:58:929 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:39:58:930 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:39:58:930 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 15 ms - 1228
+2020-05-09 07:39:58:930 [HTTP] 
+2020-05-09 07:40:02:380 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:40:02:380 [HTTP] {}
+2020-05-09 07:40:02:381 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:40:02:381 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:40:02:382 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:40:02:382 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:40:02:404 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:40:02:405 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:40:02:406 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 26 ms - 1228
+2020-05-09 07:40:02:407 [HTTP] 
+2020-05-09 07:40:02:451 [HTTP] --> POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element
+2020-05-09 07:40:02:451 [HTTP] {"using":"xpath","value":"//*[@class='android.widget.ListView']//following::android.widget.LinearLayout[4]//following::android.widget.TextView[@resource-id='com.amazon.mShop.android.shopping:id/item_title']"}
+2020-05-09 07:40:02:451 [W3C (9c226c39)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@class='android.widget.ListView']//following::android.widget.LinearLayout[4]//following::android.widget.TextView[@resource-id='com.amazon.mShop.android.shopping:id/item_title']","9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:40:02:452 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-09 07:40:02:452 [BaseDriver] Waiting up to 0 ms for condition
+2020-05-09 07:40:02:452 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-05-09 07:40:02:453 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element] with body: {"strategy":"xpath","selector":"//*[@class='android.widget.ListView']//following::android.widget.LinearLayout[4]//following::android.widget.TextView[@resource-id='com.amazon.mShop.android.shopping:id/item_title']","context":"","multiple":false}
+2020-05-09 07:40:03:549 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{"ELEMENT":"76c0bbdd-d8de-4c58-8458-c4432fdaad7d","element-6066-11e4-a52e-4f735466cecf":"76c0bbdd-d8de-4c58-8458-c4432fdaad7d"}}
+2020-05-09 07:40:03:550 [W3C (9c226c39)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"76c0bbdd-d8de-4c58-8458-c4432fdaad7d","ELEMENT":"76c0bbdd-d8de-4c58-8458-c4432fdaad7d"}
+2020-05-09 07:40:03:552 [HTTP] <-- POST /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element 200 1100 ms - 137
+2020-05-09 07:40:03:553 [HTTP] 
+2020-05-09 07:40:03:598 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/76c0bbdd-d8de-4c58-8458-c4432fdaad7d/text
+2020-05-09 07:40:03:599 [HTTP] {}
+2020-05-09 07:40:03:601 [W3C (9c226c39)] Driver proxy active, passing request on via HTTP proxy
+2020-05-09 07:40:03:602 [WD Proxy] Matched '/wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/76c0bbdd-d8de-4c58-8458-c4432fdaad7d/text' to command name 'getText'
+2020-05-09 07:40:03:603 [WD Proxy] Proxying [GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/76c0bbdd-d8de-4c58-8458-c4432fdaad7d/text] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67/element/76c0bbdd-d8de-4c58-8458-c4432fdaad7d/text] with body: {}
+2020-05-09 07:40:03:637 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":"TCL 163.96 cm (65 inches)  AI 4K UHD Certified Android Smart LED TV 65P8 (Black) (2019 Model)"}
+2020-05-09 07:40:03:638 [WD Proxy] Replacing sessionId 9e9ca3b1-4003-4f41-a98c-a602042f7e67 with 9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:40:03:640 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4/element/76c0bbdd-d8de-4c58-8458-c4432fdaad7d/text 200 41 ms - 157
+2020-05-09 07:40:03:641 [HTTP] 
+2020-05-09 07:40:40:742 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:40:40:744 [HTTP] {}
+2020-05-09 07:40:40:745 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:40:40:746 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:40:40:746 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:40:40:747 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:40:40:769 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:40:40:772 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:40:40:773 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 31 ms - 1228
+2020-05-09 07:40:40:773 [HTTP] 
+2020-05-09 07:40:40:775 [HTTP] --> GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4
+2020-05-09 07:40:40:776 [HTTP] {}
+2020-05-09 07:40:40:776 [W3C (9c226c39)] Calling AppiumDriver.getSession() with args: ["9c226c39-c938-48e9-af46-15d94cd6aee4"]
+2020-05-09 07:40:40:777 [UiAutomator2] Getting session details from server to mix in
+2020-05-09 07:40:40:777 [WD Proxy] Matched '/' to command name 'getSession'
+2020-05-09 07:40:40:777 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/9e9ca3b1-4003-4f41-a98c-a602042f7e67] with body: {}
+2020-05-09 07:40:40:799 [WD Proxy] Got response with status 200: {"sessionId":"9e9ca3b1-4003-4f41-a98c-a602042f7e67","value":{}}
+2020-05-09 07:40:40:799 [W3C (9c226c39)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0"},"platformName":"android","enforceAppInstall":true,"app":"C:\\Users\\Qualitrix\\Desktop\\mobile_automation/apkfile/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"ca66c21f9805","newCommandTimeout":1800,"platformVersion":"8.1.0","deviceUDID":"ca66c21f9805","deviceApiLevel":27,"deviceScreenSize"...
+2020-05-09 07:40:40:800 [HTTP] <-- GET /wd/hub/session/9c226c39-c938-48e9-af46-15d94cd6aee4 200 24 ms - 1228
+2020-05-09 07:40:40:800 [HTTP] 
+2020-05-09 07:40:55:407 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (internal/net.js:62:25)
+    at doWrite (_stream_writable.js:441:12)
+    at writeOrBuffer (_stream_writable.js:425:5)
+    at Socket.Writable.write (_stream_writable.js:316:11)
+    at Console.log (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:102:17)
+    at doWrite (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:662:20)
+    at DerivedLogger.emit (events.js:323:22)
+    at addChunk (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:297:12)
+    at readableAddChunk (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:11)
+    at DerivedLogger.Readable.push (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:240:10)
+    at DerivedLogger.Transform.push (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+    at doWrite (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:405:139)
+    at writeOrBuffer (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:394:5)
+    at DerivedLogger.Writable.write (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:303:11)
+    at DerivedLogger.<computed> [as error] (C:\Users\Qualitrix\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\create-logger.js:81:14)
